@@ -1,0 +1,7 @@
+services:
+  wallora:
+    build: .
+    container_name: wallora-wallpaper-gallery
+    ports:
+      - "8080:80"
+    restart: unless-stopped
